@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.code-ct {
+    height: 40vh;
+    background: #fff;
+}
+#code{
+    height: 100%;
+    overflow: hidden;
+}
+.preview-ct {
+    position: relative;
+    height: 60vh;
+}
+.pikachu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 350px;
+    height: 215px;
+}
+
+.btn{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.btn>button{
+    display: block;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    outline: none;
+    border: none;
+    box-shadow:0 0 2px;
+    border-radius: 3px;
+}
+
+.btn>button:hover{
+    box-shadow: 0 0 3px 3px#FFE600;
+}
+
+.btn>button:nth-child(2){
+    font-weight: bold;
+}
+

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>画一只皮卡丘</title>
+    <link rel="stylesheet" href="./css/default.css">
+    <style id="styleTag">
+        /* .preview-ct {
+            background: #FFE600;
+        }
+        .eye {
+            position: absolute;
+            width: 52px;
+            height: 52px;
+            background: #000;
+            border-radius: 50%;
+        }
+        .eye.left {
+            top: 0;
+            left: 0;
+            margin-left: 50px;
+        }
+        .eye.right {
+            top: 0;
+            right: 0;
+            margin-right: 50px;
+        }
+        .eye:after {
+            position: absolute;
+            top: 3px;
+            left: 10px;
+            content: '';
+            display: block;
+            width: 25px;
+            height: 25px;
+            background: #fff;
+            border-radius: 50%;
+        }
+        .nose {
+            width: 0px;
+            height: 0px;
+            border: 15px solid;
+            border-color: black transparent transparent;
+            border-radius: 12px;
+            position: absolute;
+            top: 25px;
+            left: 50%;
+            margin-left: -15px
+        }
+        .face {
+            width: 75px;
+            height: 75px;
+            background: #FF0000;
+            border: 2px solid;
+            border-radius: 50%;
+            position: absolute;
+        }
+        .face.left {
+            top: 92px;
+            left: 0;
+        }
+        .face.right {
+            top: 92px;
+            right: 0;
+        }
+        .upperLip {
+            height: 25px;
+            width: 80px;
+            border: 2px solid black;
+            border-top: none;
+            position: absolute;
+            top: 50px;
+            background: #FFE600;
+        }
+        .upperLip.left {
+            right: 50%;
+            border-right: none;
+            border-bottom-left-radius: 40px 25px;
+            transform: rotate(-20deg)
+        }
+        .upperLip.right {
+            left: 50%;
+            border-left: none;
+            border-bottom-right-radius: 40px 25px;
+            transform: rotate(20deg)
+        }
+        .lowerLip-ct {
+            width: 300px;
+            height: 152px;
+            position: absolute;
+            left: 50%;
+            margin-left: -150px;
+            bottom: 0;
+            overflow: hidden;
+        }
+        .lowerLip {
+            position: absolute;
+            bottom: 0;
+            width: 300px;
+            height: 3000px;
+            border: 2px solid;
+            border-radius: 200px/2000px;
+            background: #9B000A;
+            overflow: hidden;
+        }
+        .lowerLip::after {
+            content: '';
+            width: 120px;
+            height: 120px;
+            border-radius: 60px/30px;
+            background: #FF485F;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            margin-left: -60px;
+        } */
+    </style>
+</head>
+<body>
+    <div class="btn">
+        <button speed = "slow">慢速</button>
+        <button speed = "normal">中速</button>
+        <button speed = "fast">快速</button>
+    </div>
+    <div class="code-ct">
+        <pre id="code"></pre>
+    </div>
+    <div class="preview-ct">
+        <div class="pikachu">
+            <div class="lowerLip-ct">
+                <div class="lowerLip"></div>
+            </div>
+            <div class="eye left"></div>
+            <div class="eye right"></div>
+            <div class="nose"></div>
+            <div class="face left"></div>
+            <div class="face right"></div>
+            <div class="upperLip left"></div>
+            <div class="upperLip right"></div>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="./js/main.js"></script>
+</html>
